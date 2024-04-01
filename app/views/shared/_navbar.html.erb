@@ -1,25 +1,35 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+<div class="top-home-gbs navbar-expand-sm navbar-light d-flex flex-column justify-content-center align-items-center">
 
-  <div class="container-fluid">
+  <div class="redirect-logos d-flex justify-content-center align-items-center">
 
-    <%= link_to root_path, class: "navbar-brand" do %>
-      <%= image_tag "https://kitt.lewagon.com/placeholder/users/ClmtMlt" %>
-    <% end %>
+    <a href="https://www.tiktok.com/@guidebyso"><%= image_tag "https://static.vecteezy.com/ti/vecteur-libre/p1/6057996-logo-tiktok-sur-fond-transparent-gratuit-vectoriel.jpg" %></a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <a href="https://www.instagram.com/guidebyso/"><%= image_tag "https://cdn-icons-png.flaticon.com/512/174/174855.png" %></a>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <a href="https://www.facebook.com/profile.php?id=100079345668453"><%= image_tag "https://cdn-icons-png.flaticon.com/256/124/124010.png" %></a>
 
-      <ul class="navbar-nav me-auto">
+    <a href="https://mapstr.com/user/guidebyso"><%= image_tag "https://play-lh.googleusercontent.com/5PNPvDqjHmvEZpr-2KaGDF62AckPANQWr8vko6ha0aoZ1f8x_tFNcEHLMTcTCrLyqg" %></a>
+
+  </div>
+
+  <div class="navbar">
+
+    <div class="logo-gbs d-flex justify-content-center">
+      <%= link_to root_path, class: "navbar-brand" do %>
+        <%= image_tag "https://kitt.lewagon.com/placeholder/users/ClmtMlt" %>
+      <% end %>
+    </div>
+
+    <div class="actions-menu-gbs d-flex justify-content-center">
+
+      <ul class="navbar-nav me-auto d-flex justify-content-around">
 
         <li class="nav-item active">
           <%= link_to "ACCUEIL", "#", class: "nav-link" %>
         </li>
 
         <li class="nav-item dropdown">
-          <p class="avatar dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">À PROPOS</p>
+          <p class="avatar dropdown-toggle nav-link" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">À PROPOS</p>
           <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
             <%= link_to "PRÉSENTATION", "#", class: "dropdown-item" %>
             <%= link_to "CV", "#", class: "dropdown-item" %>

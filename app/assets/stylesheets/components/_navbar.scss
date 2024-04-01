@@ -1,12 +1,46 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
-}
+.top-home-gbs {
+  height: 25vh;
+  width: 100vw;
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
+  .redirect-logos {
+    width: 30%;
+    height: 40%;
+    padding: 20px;
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+    a {
+      height: 100%;
+      width: 20%;
+      margin-left: 20px;
+      margin-right: 20px;
+
+      img {
+        height: 100%;
+        width: 100%;
+
+      }
+    }
+  }
+
+  .navbar {
+    width: 100%;
+    justify-content: space-between;
+    background: white;
+
+    .logo-gbs {
+      width: 30%;
+
+    }
+
+    .actions-menu-gbs {
+      width: 70%;
+
+      ul {
+        width: 100%;
+      }
+
+    }
+    img {
+      width: 40px;
+    }
+  }
 }
