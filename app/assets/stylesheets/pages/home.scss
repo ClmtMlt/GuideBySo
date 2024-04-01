@@ -1,0 +1,21 @@
+.home-container {
+  width: 100vw;
+  height: 75vh;
+  padding: 20px;
+
+  .img-container {
+    padding: 20px;
+    background: grey;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+
+    h3 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+    }
+  }
+}

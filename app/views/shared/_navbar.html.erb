@@ -25,28 +25,28 @@
       <ul class="navbar-nav me-auto d-flex justify-content-around">
 
         <li class="nav-item active">
-          <%= link_to "ACCUEIL", "#", class: "nav-link" %>
+          <%= link_to "ACCUEIL", root_path, class: "nav-link" %>
         </li>
 
         <li class="nav-item dropdown">
           <p class="avatar dropdown-toggle nav-link" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">À PROPOS</p>
           <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-            <%= link_to "PRÉSENTATION", "#", class: "dropdown-item" %>
-            <%= link_to "CV", "#", class: "dropdown-item" %>
-            <%= link_to "PORTFOLIO", "#", class: "dropdown-item" %>
+            <%= link_to "PRÉSENTATION", presentation_path, class: "dropdown-item" %>
+            <%= link_to "CV", cv_path, class: "dropdown-item" %>
+            <%= link_to "PORTFOLIO", portfolio_path, class: "dropdown-item" %>
           </div>
         </li>
 
         <li class="nav-item">
-          <%= link_to "PROJETS", "#", class: "nav-link" %>
+          <%= link_to "PROJETS", projets_path, class: "nav-link" %>
         </li>
 
         <li class="nav-item">
-          <%= link_to "SERVICES", "#", class: "nav-link" %>
+          <%= link_to "SERVICES", services_path, class: "nav-link" %>
         </li>
 
         <li class="nav-item">
-          <%= link_to "CONTACT", "#", class: "nav-link" %>
+          <%= link_to "CONTACT", contact_path, class: "nav-link" %>
         </li>
 
       </ul>
