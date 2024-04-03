@@ -16,7 +16,11 @@
       <p>mon what</p>
     </div>
 
-    <button class="btn btn-succes">Voir mon CV</button>
+    <div class="cta-cv d-flex justify-content-end">
+      <%= link_to cv_path do %>
+        <button class="btn btn-success">Voir mon CV</button>
+      <% end %>
+    </div>
 
   </div>
 
