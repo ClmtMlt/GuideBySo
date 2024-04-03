@@ -48,8 +48,6 @@
     }
   }
 
-
-
   .last-content {
     padding: 20px;
     height: 100%;
@@ -105,12 +103,23 @@
       border-radius: 10px;
       width: 100%;
 
-      .phone-case {
+      .project-link {
         width: 20%;
         height: 70%;
-        background: grey;
+        background: white;
         border-radius: 10px;
+
       }
+    }
+
+    .footer-home-content {
+      background: palegreen;
+      width: 25%;
+      padding: 20px;
+      height: auto;
+      border-radius: 10px;
+      position: absolute;
+      bottom: 20px;
     }
   }
 }
