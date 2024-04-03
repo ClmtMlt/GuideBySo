@@ -1,0 +1,38 @@
+.pres-container {
+  width: 100%;
+  height: 100%;
+  background: gray;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+
+  .story-telling {
+    width: 25%;
+    height: auto;
+    background: lightcoral;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .introducing-myself {
+    width: 35%;
+    height: 70%;
+    background: lightcoral;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .myself-in-words {
+    height: auto;
+    width: 20%;
+    background: lightcoral;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  button {
+    position: absolute;
+    bottom: 20px;
+    right: 75px;
+  }
+}
