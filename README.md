@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Voici mon premier site from scratch. Il s'agit d'une commande pour une influenceuse culinaire sur Bordeaux.
 
-Things you may want to cover:
+Elle avait besoin d'un site vitrine lui permettant de toucher plus de clientèle professionnelle mais également d'accroître son nombre d'abonnés et donc sa notoriété.
 
-* Ruby version
+Elle m'a laissé la liberté d'être créatif et de lui soumettre des idées de designs, le site est voué à être hébergé et durable.
 
-* System dependencies
+Le contenu doit être également modulable et interchangeable à sa guise.
 
-* Configuration
 
-* Database creation
+J'ai utilisé Rails 7 afin de mettre en place cette application de façon structurée et opérationnelle.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Aucune configuration oou database n'est nécessaire pour l'instant.
