@@ -36,3 +36,47 @@
     right: 25px;
   }
 }
+
+.pres-stats-container {
+  width: 100vw;
+  padding: 20px;
+  height: 25vh;
+
+  .more-about-my-work {
+    background: purple;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+
+    .my-stats {
+      height: 100%;
+      width: 100%;
+
+      .stats-block {
+        background: white;
+        border-radius: 10px;
+        width: 20%;
+        height: 75%;
+
+        h2 {
+          font-weight: 900;
+        }
+      }
+    }
+  }
+}
+
+.pres-myself-container {
+  width: 100vw;
+  height: 75vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+
+  .more-about-me {
+    background: peru;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+}
