@@ -1,0 +1,39 @@
+.cv-container {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+
+  .cv-content-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: blue;
+    padding: 20px;
+
+    .cv-header-container {
+      height: auto;
+      width: 80%;
+      margin-bottom: 20px;
+
+      .cv-content-header {
+        width: 100%;
+
+        h2 {
+          font-weight: 700;
+          font-size: 24;
+          padding: 20px;
+          background: orange;
+          border-radius: 10px;
+        }
+      }
+    }
+
+    .cv-body {
+      height: auto;
+      width: 100%;
+      padding: 20px;
+      border-radius: 10px;
+      background: orange;
+    }
+  }
+}
