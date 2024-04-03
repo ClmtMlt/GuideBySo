@@ -48,14 +48,69 @@
     }
   }
 
+
+
   .last-content {
+    padding: 20px;
     height: 100%;
     background: blue;
     border-radius: 10px;
+    position: relative;
+
+    .header-home-content {
+      width: 90%;
+      height: 10%;
+      background: orange;
+      border-radius: 10px;
+      position: absolute;
+      top: 20px;
+    }
 
     .phone-block {
       height: 50%;
+      width: 100%;
+      background: orange;
+      border-radius: 10px;
+      width: 100%;
+
+      .phone-case {
+        width: 20%;
+        height: 70%;
+        background: grey;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .trust-me {
+    padding: 20px;
+    height: 100%;
+    background: red;
+    border-radius: 10px;
+    position: relative;
+
+    .header-home-content {
+      width: 90%;
+      height: 10%;
+      background: palegreen;
+      border-radius: 10px;
+      position: absolute;
+      top: 20px;
+    }
+
+    .rest-block {
+      height: 50%;
       width: 20%;
+      background: palegreen;
+      border-radius: 10px;
+      width: 100%;
+
+      .phone-case {
+        width: 20%;
+        height: 70%;
+        background: grey;
+        border-radius: 10px;
+      }
     }
   }
 }
