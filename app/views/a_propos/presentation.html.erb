@@ -28,42 +28,52 @@
 
 <div class="pres-stats-container">
 
-  <div class="more-about-my-work d-flex justify-content-around align-items-center">
+  <div class="more-about-my-work">
 
-    <div class="my-stats d-flex justify-content-around align-items-center">
+    <div class="stats-container d-flex justify-content-start">
 
-      <div class="stats-block d-flex flex-column justify-content-center align-items-center">
-        <h3>Formation</h3>
-        <div class="impact-text d-flex justify-content-center">
-          <h2>5</h2>
-          <h5>ans</h5>
+      <div class="my-stats d-flex justify-content-around align-items-center">
+
+        <div class="stats-block d-flex flex-column justify-content-center align-items-center">
+          <h3>Formation</h3>
+          <div class="impact-text d-flex justify-content-center align-items-end mt-2">
+            <h2>5</h2>
+            <h5>ans</h5>
+          </div>
         </div>
+
+        <div class="stats-block d-flex flex-column justify-content-center align-items-center">
+          <h3>Expériences</h3>
+          <div class="impact-text d-flex justify-content-center align-items-end mt-2">
+            <h2>10</h2>
+            <h5>+</h5>
+          </div>
+        </div>
+
+        <div class="stats-block d-flex flex-column justify-content-center align-items-center">
+          <h3>Reels "Food"</h3>
+          <div class="impact-text d-flex justify-content-center align-items-end mt-2">
+            <h2>145</h2>
+            <h5>+</h5>
+          </div>
+        </div>
+
+        <div class="stats-block d-flex flex-column justify-content-center align-items-center">
+          <h3>Abonnés</h3>
+          <div class="impact-text d-flex justify-content-center align-items-end mt-2">
+            <h2>17</h2>
+            <h5>+</h5>
+          </div>
+        </div>
+
       </div>
 
-      <div class="stats-block d-flex flex-column justify-content-center align-items-center">
-        <h3>Expériences</h3>
-        <div class="impact-text d-flex justify-content-center">
-          <h2>10</h2>
-          <h5>+</h5>
-        </div>
-      </div>
+    </div>
 
-      <div class="stats-block d-flex flex-column justify-content-center align-items-center">
-        <h3>Reels "food"</h3>
-        <div class="impact-text d-flex justify-content-center">
-          <h2>145</h2>
-          <h5>+</h5>
-        </div>
-      </div>
-
-      <div class="stats-block d-flex flex-column justify-content-center align-items-center">
-        <h3>Abonnés</h3>
-        <div class="impact-text d-flex justify-content-center">
-          <h2>17</h2>
-          <h5>+</h5>
-        </div>
-      </div>
-
+    <div class="cta-portfolio d-flex justify-content-center">
+      <%= link_to portfolio_path do %>
+        <button class="btn btn-success">Voir mon portfolio</button>
+      <% end %>
     </div>
 
   </div>
@@ -74,6 +84,31 @@
 
   <div class="more-about-me d-flex justify-content-around align-items-center">
     <h3>Ajouter plus de choses à propos de moi ou de mes envies</h3>
+  </div>
+
+</div>
+
+<div class="pres-materials-container">
+
+  <div class="materials-block">
+
+    <div class="materials-section d-flex flex-column">
+
+      <div class="materials-description-section">
+        <h3>tableau avec le matériel</h3>
+      </div>
+
+      <div class="follow-me-block d-flex flex-column">
+        <h2>Si tu veux encore plus de détails sur mes aventures, rejoins-moi ici:</h2>
+        <div class="follow-links d-flex justify-content-center">
+          <a href="https://www.tiktok.com/@guidebyso"><%= image_tag "https://static.vecteezy.com/ti/vecteur-libre/p1/6057996-logo-tiktok-sur-fond-transparent-gratuit-vectoriel.jpg" %></a>
+          <a href="https://www.instagram.com/guidebyso/"><%= image_tag "https://cdn-icons-png.flaticon.com/512/174/174855.png" %></a>
+        </div>
+
+      </div>
+
+    </div>
+
   </div>
 
 </div>

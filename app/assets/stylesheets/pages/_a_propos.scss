@@ -47,21 +47,66 @@
     border-radius: 10px;
     height: 100%;
     width: 100%;
+    position: relative;
 
-    .my-stats {
+    .stats-container {
+      width: 90%;
       height: 100%;
-      width: 100%;
 
-      .stats-block {
-        background: white;
-        border-radius: 10px;
-        width: 20%;
-        height: 75%;
+      .my-stats {
+        height: 100%;
+        width: 100%;
 
-        h2 {
-          font-weight: 900;
+        .stats-block {
+          background: white;
+          border-radius: 10px;
+          width: 15%;
+          height: 75%;
+          padding: 20px;
+
+          h3 {
+            font-size: 24px;
+          }
+
+          h2 {
+            font-weight: 900;
+            margin: 0 5px 0 0;
+            font-size: 50px;
+          }
+
+          h5 {
+            font-size: 18px;
+            font-weight: 900;
+          }
+        }
+
+        .stats-block:hover {
+          width: 30%;
+          height: 125%;
+          background: yellowgreen;
+
+          h3 {
+            font-size: 36px;
+          }
+
+          h2 {
+            font-weight: 900;
+            margin: 0 5px 0 0;
+            font-size: 75px;
+          }
+
+          h5 {
+            font-size: 27px;
+            font-weight: 900;
+          }
         }
       }
+    }
+
+    .cta-portfolio {
+      position: absolute;
+      bottom: 25px;
+      right: 25px;
     }
   }
 }
@@ -78,5 +123,48 @@
     border-radius: 10px;
     height: 100%;
     width: 100%;
+  }
 }
+
+.pres-materials-container {
+  height: 100vh;
+  width: 100vw;
+  padding: 20px;
+
+  .materials-block {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: yellow;
+
+    .materials-section {
+      width: 100%;
+      height: 100%;
+
+      .materials-description-section {
+        width: 100%;
+        height: 70%;
+        background: white;
+        border-radius: 10px;
+      }
+
+      .follow-me-block {
+        width: 100%;
+        height: 25%;
+        background: white;
+        border-radius: 10px;
+
+        .follow-links {
+          width: 40%;
+
+          a {
+            img {
+              width: 40px;
+              height: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
