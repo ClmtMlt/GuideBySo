@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  last_name: MyString
+  first_name: MyString
+  brand: MyString
+  website: MyString
+  deadline: 2024-04-04
+  informations: MyText
+  budget: 1
+  start_time: MyString
+  asked_items: MyString
+
+two:
+  last_name: MyString
+  first_name: MyString
+  brand: MyString
+  website: MyString
+  deadline: 2024-04-04
+  informations: MyText
+  budget: 1
+  start_time: MyString
+  asked_items: MyString
