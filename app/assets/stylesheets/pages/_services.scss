@@ -61,36 +61,74 @@
     background: gray;
     position: relative;
 
+    .other-service-header {
+      padding: 20px;
+      height: auto;
+      width: 80%;
+      margin-bottom: 20px;
+
+      h2 {
+        font-weight: 700;
+        font-size: 24px;
+        background: white;
+        border-radius: 10px;
+        padding: 20px;
+      }
+    }
+
     .other-service-body {
       margin-bottom: 75px;
-      background: paleturquoise;
-      border-radius: 10px;
       padding: 20px;
       height: 100%;
+      width: 100%;
+      position: relative;
 
       .service-item-formula1 {
-        width: 30%;
+        width: 30vw;
         height: auto;
         border-radius: 10px;
         background: green;
         padding: 20px;
-
+        position: absolute;
+        left: 3vw;
+        border: 2px solid green;
       }
+
+      .service-item-formula1:hover {
+        border: 2px solid white;
+        z-index: 800;
+      }
+
       .service-item-formula2 {
-        width: 30%;
+        width: 30vw;
         height: auto;
         border-radius: 10px;
         background: blue;
         padding: 20px;
-
+        position: absolute;
+        left: 32vw;
+        border: 2px solid blue;
       }
+
+      .service-item-formula2:hover {
+        border: 2px solid white;
+        z-index: 800;
+      }
+
       .service-item-formula3 {
-        width: 30%;
+        width: 30vw;
         height: auto;
         border-radius: 10px;
         background: red;
         padding: 20px;
+        position: absolute;
+        left: 61vw;
+        border: 2px solid red;
+      }
 
+      .service-item-formula3:hover {
+        border: 2px solid white;
+        z-index: 800;
       }
     }
 
