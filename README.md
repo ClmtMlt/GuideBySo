@@ -1,5 +1,5 @@
 # README
-Voici ma toute première application Web from scratch. Il s'agit d'une commande pour une influenceuse culinaire en devenir sur Bordeaux.
+Voici ma toute première application Web from scratch. Il s'agit d'une commande pour une créatrice de contenu culinaire en devenir sur Bordeaux.
 
 Elle avait besoin d'un site vitrine lui permettant de toucher plus de clientèle professionnelle mais également d'accroître son nombre d'abonnés et donc sa notoriété.
 
