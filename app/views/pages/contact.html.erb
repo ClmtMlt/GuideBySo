@@ -16,23 +16,27 @@
 
     <div class="contact-new-header">
 
+      <h1>Saisir titre pour attirer sur le formulaire de demande de contact en dessous!</h1>
+
     </div>
 
     <div class="contact-new-body">
 
       <div class="form-contact-new">
-        <%= simple_form_for @contact do |f| %>
-          <%= f.input :first_name, placeholder: "Prénom" %>
-          <%= f.input :last_name, placeholder: "Nom" %>
-          <%= f.input :brand, placeholder: "Marque" %>
-          <%= f.input :website, placeholder: "Site web ou réseaux" %>
-          <%= f.input :budget, placeholder: "Ton budget" %>
-          <%= f.input :start_time, placeholder: "Dispo à partir de..." %>
-          <%= f.input :deadline, placeholder: "Terminé avant le..." %>
-          <%= f.input :asked_items, placeholder: "Tu souhaites..." %>
-          <%= f.text :informations, placeholder: "Décris ta demande ici, essaie d'être le/la plus précis(e)" %>
+
+        <%#= simple_form_for @contact do |f| %>
+          <%#= f.input :first_name, placeholder: "Prénom" %>
+          <%#= f.input :last_name, placeholder: "Nom" %>
+          <%#= f.input :brand, placeholder: "Marque" %>
+          <%#= f.input :website, placeholder: "Site web ou réseaux" %>
+          <%#= f.input :budget, placeholder: "Ton budget" %>
+          <%#= f.input :start_time, placeholder: "Dispo à partir de..." %>
+          <%#= f.input :deadline, placeholder: "Terminé avant le..." %>
+          <%#= f.input :asked_items, placeholder: "Tu souhaites..." %>
+          <%#= f.text :informations, placeholder: "Décris ta demande ici, essaie d'être le/la plus précis(e)" %>
           <button type="submit" class="btn btn-success">Envoyer</button>
-        <% end %>
+        <%# end %>
+
       </div>
 
     </div>
