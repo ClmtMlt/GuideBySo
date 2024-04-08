@@ -12,5 +12,5 @@ Rails.application.routes.draw do
   get '/a-propos/portfolio', to: 'a_propos#portfolio', as: 'portfolio'
   get '/projets', to: 'projets#index', as: 'projets'
   get '/services', to: 'services#index', as: 'services'
-  get '/contact', to: 'contact#new', as: 'contact'
+  get '/contacts', to: 'contacts#new', as: 'contacts'
 end
