@@ -11,7 +11,11 @@
   </head>
 
   <body>
-    <%= render "shared/navbar" %>
-    <%= yield %>
+    <div class="scroll-box">
+      <div class="scroll-box-block">
+        <%= render "shared/navbar" %>
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>

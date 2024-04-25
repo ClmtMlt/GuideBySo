@@ -1,3 +1,27 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-box::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-box {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+
+  .scroll-box-block {
+    min-width: 100vw;
+    min-height: 100vh;
+    scroll-snap-align: end;
+  }
+}
+
 .home-container {
   width: 100vw;
   height: 75vh;
