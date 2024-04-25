@@ -8,7 +8,7 @@ class CreateContacts < ActiveRecord::Migration[7.1]
       t.date :deadline
       t.text :informations
       t.integer :budget
-      t.string :start_time
+      t.date :start_time
       t.string :asked_items
       t.string :email
 

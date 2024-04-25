@@ -19,7 +19,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_04_04_012946) do
     t.date "deadline"
     t.text "informations"
     t.integer "budget"
-    t.string "start_time"
+    t.date "start_time"
     t.string "asked_items"
     t.string "email"
     t.datetime "created_at", null: false
